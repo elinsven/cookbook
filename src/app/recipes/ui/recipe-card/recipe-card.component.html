@@ -1,0 +1,4 @@
+<div (click)="recipeClick.emit(recipe)">
+  <img [src]="recipe?.recipeImage" [alt]="recipe?.recipeName">
+  <p>{{ recipe?.recipeName }}</p>
+</div>
